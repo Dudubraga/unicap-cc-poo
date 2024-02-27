@@ -1,0 +1,27 @@
+Universidade Católica de Pernambuco
+Aluno: Eduardo Braga - 848640
+
+    Introdução ao Java
+
+1 - Para  desenvolver inovações tecnológicas, criar um interpretador para pequenos 
+    dispositivos que facilitasse a reescrita de software para aparelhos eletrônicos
+    e para rodar pequenas aplicações dentro do browser;
+
+2 - Orientada a objetos, portabilidade e gerenciamento de memória automático;
+
+3 - significa que ela se baseia no paradigma de programação orientada a objetos (POO),
+    onde tudo é considerado um objeto que possui características (dados) e comportamentos
+    (métodos). Na prática, isso implica que o código Java é estruturado em torno da 
+    criação e interação entre objetos;
+
+4 - Declaração da Classe: Define a estrutura do programa. Exemplo: public class MeuPrograma { };
+    Método Main: Ponto de entrada do programa. Exemplo: public static void main(String[] args) { };
+
+5 - Servir como o ponto de entrada para a execução do programa. Ele é o método que é chamado 
+    quando você inicia a execução de um programa Java e é onde a execução do programa começa.
+
+6 - Para facilitar a localização e o carregamento das classes durante a compilação e a 
+    execução do programa.
+
+7 - É um conjunto de ferramentas que inclui o compilador Java (javac), bibliotecas padrão 
+    e outras utilidades essenciais para desenvolver programas;
