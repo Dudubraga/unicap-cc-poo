@@ -2,7 +2,7 @@ package Aula05EstruturasDeRepeticao;
 import java.util.Scanner;
 
 public class index {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int[] values = new int[5];
         for(int i = 0; i < 5; i++){
@@ -13,7 +13,6 @@ public class index {
         for(int i : values){
             System.out.print(i + " ");
         } System.out.println();
-        
         
         scan.close();
     }
