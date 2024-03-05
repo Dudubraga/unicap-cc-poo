@@ -1,7 +1,7 @@
 package Aula05EstruturasDeRepeticao;
 import java.util.Scanner;
 
-public class arrays {
+public class index {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] values = new int[5];

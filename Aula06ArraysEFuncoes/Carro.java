@@ -1,4 +1,4 @@
-package Aula06;
+package Aula06ArraysEFuncoes;
 import java.util.Scanner;
 
 public class Carro {
