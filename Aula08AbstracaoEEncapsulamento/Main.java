@@ -1,4 +1,4 @@
-package Aula08AbstracaoEEncapsulamento.Exemplo;
+package Aula08AbstracaoEEncapsulamento;
 
 public class Main {
     public static void main(String[] args) {
