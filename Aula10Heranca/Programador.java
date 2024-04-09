@@ -4,7 +4,6 @@ public class Programador extends Funcionarios {
     public String getLinguagem() {
         return linguagem;
     }
-
     public void setLinguagem(String linguagem) {
         this.linguagem = linguagem;
     }
