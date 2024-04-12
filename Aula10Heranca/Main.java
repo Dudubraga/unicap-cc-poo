@@ -15,14 +15,12 @@ public class Main {
         designer.setSoftwareEdicao("Photoshop");
         
         System.out.println("Nome Programador: " + programador.getNome());
-        System.out.println("CPF Programador: " + programador.getCpf());
         System.out.println("Salario Programador: " + programador.getSalario());
-        System.out.println("Linguagem Programador: " + programador.getLinguagem());
+        System.out.println(programador.calcularBonificacao());
         System.out.println();
         System.out.println("Nome Designer: " + designer.getNome());
-        System.out.println("CPF Designer: " + designer.getCpf());
         System.out.println("Salario Designer: " + designer.getSalario());
-        System.out.println("Software Designer: " + designer.getSoftwareEdicao());
-        
+        System.out.println(designer.calcularBonificacao());
+        System.out.println();
     }
 }

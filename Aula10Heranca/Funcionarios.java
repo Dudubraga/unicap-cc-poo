@@ -1,8 +1,9 @@
-public class Funcionarios{
+public abstract class Funcionarios{
     private String nome;
     private String cpf;
     private double salario;
-    private String planoSaude;
+
+    public abstract double calcularBonificacao();
 
     public String getNome() {
         return nome;
@@ -21,12 +22,6 @@ public class Funcionarios{
     }
     public void setSalario(double salario) {
         this.salario = salario;
-    }
-    public String getPlanoSaude() {
-        return planoSaude;
-    }
-    public void setPlanoSaude(String planoSaude) {
-        this.planoSaude = planoSaude;
     }
     
 }
