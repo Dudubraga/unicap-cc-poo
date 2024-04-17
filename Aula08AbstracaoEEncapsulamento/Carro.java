@@ -16,19 +16,15 @@ public class Carro {
     String getMarca(){
         return this.marca;
     }
-
     void setMarca(String marca){
         this.marca = marca;
     }
-
     public String getCor() {
         return cor;
     }
-
     public String getModelo() {
         return modelo;
     }
-
     public String getTipoCambio() {
         return tipoCambio;
     }
