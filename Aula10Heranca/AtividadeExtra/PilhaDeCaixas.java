@@ -10,23 +10,18 @@ public class PilhaDeCaixas {
     }
     // 1.d)
     public boolean empilhar(Caixa caixa){
-        if(!this.stack.isEmpty()){
-            if(this.alturaMax < this.alturaAtual() + caixa.getAltura()){
-                System.out.println("A altura máxima foi atingida");
-                return false;
-            }
-            /* Acessar o PesoMax de uma variavel CaixaFragil na pilha de tipo Caixa
-               pra conseguir impedir que caixas frageis recebam caixas muito pesadas
-               em cima delas;
-            if(this.stack.peek().getIdentificador() == "fragil"){
-                if(caixa.getPeso() > stack.peek().getPesoMax()){
+        if(caixa.getAltura() + alturaAtual() <= this.alturaMax){
+            if(!this.stack.isEmpty() && this.stack.peek() instanceof CaixaFragil){
+                if(((CaixaFragil) this.stack.peek()).getPesoMax() < caixa.getPeso()){
+                    System.out.println("\nA caixa pode quebrar a Caixa Frágil embaixo");
                     return false;
                 }
             }
-            */
+            this.stack.push(caixa);
+            return true;
         }
-        this.stack.push(caixa);
-        return true;
+        System.out.println("\nAltura limite atingida");
+        return false;
     }
     // 1.e)
     public Caixa desempilhar(){
